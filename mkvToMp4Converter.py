@@ -26,7 +26,7 @@ def convert_folder_to_mp4():
 
 if __name__ == "__main__":
     if (len(sys.argv) == 1): # checks if the user has opened the script with a file, in this case the script will only convert that file. 
-                             # Otherwise will convert all the .mvk files in the actual folder
+                             # Otherwise will convert all the .mkv files in the actual folder
         print("No file has been passed, all the .mkv files in actual folder will be convert. Press any key to continue")
         input()
         convert_folder_to_mp4()
